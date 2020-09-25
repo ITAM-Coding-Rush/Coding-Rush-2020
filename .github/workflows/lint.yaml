@@ -1,0 +1,23 @@
+name: Lint
+
+on:
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          submodules: true
+
+      - name: Pull container
+        run: ./utils/lint --only-pull-image
+
+      - name: Lint
+        run: |
+          ./utils/lint \
+            --command-name="utils/lint" \
+            --diagnostics-output=github \
+            validate --all
