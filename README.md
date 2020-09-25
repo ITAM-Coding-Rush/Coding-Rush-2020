@@ -106,7 +106,7 @@ y la versión más reciente de [Docker](https://docs.docker.com/get-docker/).
 Después, corre
 
 ```bash
-docker run --volume="${PWD}:/src" omegaup/hook_tools:20200924 fix --all
+./utils/lint fix --all
 cd utils
 pipenv install
 pipenv run python3 runtests.py --all
