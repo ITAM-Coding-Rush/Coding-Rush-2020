@@ -6,7 +6,7 @@ on:
     branches: [master]
 
 env:
-  OMEGAUPUSER: omips
+  OMEGAUPUSER: CodingRush
   OMEGAUPPASS: ${{ secrets.OMEGAUP_PASSWORD }}
 
 jobs:
