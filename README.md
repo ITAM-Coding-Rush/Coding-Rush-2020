@@ -2,6 +2,9 @@
 
 ## Cómo Colaborar
 
+Prerrequisitos:
+- [Lee sobre cómo hacer problemas para OmegaUp](https://github.com/omegaup/omegaup/wiki/C%C3%B3mo-escribir-problemas-para-omegaUp#problemas-de-lenguaje-ccjavapascal).
+
 Usamos git para coordinar el trabajo, así como pruebas automáticas
 que revisan que los problemas tienen entradas válidas y que las
 soluciones de prueba sacan los puntos que esperamos. Todo se coordina
@@ -50,7 +53,7 @@ Crea una carpeta con el nombre del problema. Esta carpeta debe contener los sigu
 
 * `cases/`
 
-  - Aquí van los casos ya sea manualmente o autogenerados, siguiendo la especificación de la entrada. Aquí van los `.in`; no se debe poner las salidas pues estas serán autogeneradas por la solución modelo.
+  - Aquí van los casos ya sea manualmente o autogenerados, siguiendo la especificación de la entrada. Aquí van los `.in` y no se debe poner las salidas pues estas serán autogeneradas por la solución modelo.
 
   - En caso de que tus casos sean autogenerados, incluye el código que los generó en la raíz del problema, con el nombre `case-generator.[lang]`.
 
