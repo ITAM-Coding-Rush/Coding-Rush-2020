@@ -13,7 +13,9 @@ el siguiente. En todos los casos, **se debe hacer una branch y posteriormente un
 
 Crea una carpeta con el nombre del problema. Esta carpeta debe contener los siguientes elementos:
 
-* `settings.json`. [Puedes tomarlo de aquí](https://github.com/ComiteMexicanoDeInformatica/OMI-2019/blob/master/omi-2019/OMI-2019-Spider-Man/settings.json). Modifica el `title`, `source` y en `alias` debes poner `"dummy-cr"`.
+* `settings.json`. 
+
+  - [Puedes tomarlo de aquí](https://github.com/ComiteMexicanoDeInformatica/OMI-2019/blob/master/omi-2019/OMI-2019-Spider-Man/settings.json). Modifica el `title`, `source` y en `alias` debes poner `"dummy-cr"`.
 
 * `statements/`
 
