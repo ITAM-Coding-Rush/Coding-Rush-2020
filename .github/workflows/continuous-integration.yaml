@@ -59,10 +59,9 @@ jobs:
         python3 ./utils/runtests.py ${{ env.CI_FLAGS }} --only-pull-image
     - name: Run tests
       run: python3 ./utils/runtests.py ${{ env.CI_FLAGS }}
-      if: github.ref != 'refs/heads/master'
 
-    - name: Generate outs/pngs/testplan
-      run: python3 ./utils/generateouts.py --generate=testplan,png,out ${{ env.CI_FLAGS }}
+    - name: Generate pngs/testplan
+      run: python3 ./utils/generateresources.py --generate=png,testplan ${{ env.CI_FLAGS }}
       if: github.ref == 'refs/heads/master'
 
     - name: Deploy to omegaUp
