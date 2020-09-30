@@ -1,0 +1,13 @@
+{
+  "lint": {
+    "clang-format": {
+      "allowlist": [".*\\.cpp$"]
+    },
+    "json": {
+      "allowlist": [".*\\.json$"]
+    },
+    "markdown": {
+      "allowlist": [".*\\.(markdown|md)$"]
+    }
+  }
+}

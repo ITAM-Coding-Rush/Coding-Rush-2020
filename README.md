@@ -3,6 +3,7 @@
 ## Cómo Colaborar
 
 Prerrequisitos:
+
 - [Lee sobre cómo hacer problemas para OmegaUp](https://github.com/omegaup/omegaup/wiki/C%C3%B3mo-escribir-problemas-para-omegaUp#problemas-de-lenguaje-ccjavapascal).
 
 Usamos git para coordinar el trabajo, así como pruebas automáticas
@@ -14,21 +15,35 @@ archivos individuales `settings.json` en las carpetas de cada problema.
 El flujo de trabajo para hacer un problema es _estrictamente_
 el siguiente. En todos los casos, **se debe hacer una branch y posteriormente un pull request** para subir un problema. Es decir, NO hacer push desde la branch _master_.
 
-Crea una carpeta con el nombre del problema. Esta carpeta debe contener los siguientes elementos:
+Crea una carpeta con el nombre del problema. Puedes copiar la carpeta llamada `problem-template`. Esta nueva carpeta debe contener los siguientes elementos:
 
-* `settings.json`. 
+- `settings.json`.
 
   - [Puedes tomarlo de aquí](https://github.com/ComiteMexicanoDeInformatica/OMI-2019/blob/master/omi-2019/OMI-2019-Spider-Man/settings.json). Modifica el `title`, `source` y en `alias` debes poner `"dummy-cr"`.
 
-* `statements/`
+- `statements/`
 
-  - `es.markdown`. La redacción del problema.
+  - `es.markdown`. La redacción del problema. Para visualizar el formato puedes usar [https://omegaup.com/redaccion.php](https://omegaup.com/redaccion.php)
 
-* `tests/`
+  - (Opcional) `plantilla.py`. Si tu problema tiene plantilla para mostrar en el problema, añade este archivo. Además, al final del `es.markdown` debes insertar lo siguiente:
+
+    ```
+    <details><summary>Checa la `plantilla.py`</summary>
+    {{plantilla.py}}
+    </details>
+    ```
+
+- `solutions/`
+
+  - `solution.py`. Es la solución esperada del problema y también la que se utiliza para generar los `.out` en los casos.
+
+  - (Opcional) Otras soluciones. En caso de querer probar otras soluciones (completas o parciales) se agregan como `[sol].[lang]`, así como en `tests.json`, con el veredicto o puntaje esperado.
+
+  - (Opcional) `es.markdown`. Es un documento que explica la solución oficial.
+
+- `tests/`
 
   - `test-validator.py`. Son pruebas para checar que la entrada de los casos sea válida y que siguen _exactamente_ el formato descrito, cuidando en particular los espacios en blanco y saltos de línea.
-
-  - `solutions/solution.py`. Es la solución esperada del problema y también la que se utiliza para generar los `.out` en los casos.
 
   - `tests.json`. Este archivo indica qué validador se usará para los casos de prueba y qué soluciones correrá para los tests. Normalmente, el archivo llevará este contenido:
 
@@ -36,31 +51,32 @@ Crea una carpeta con el nombre del problema. Esta carpeta debe contener los sigu
   {
     "solutions": [
       {
-        "filename": "solutions/solution.py",
-        "verdict": "AC",
-        "score": 100
+        "filename": "solutions/solution.[lang]",
+        "verdict": "AC"
       }
     ],
     "inputs": {
-      "filename": "test-validator.py"
+      "filename": "[validator].[lang]"
     }
   }
   ```
 
-  - (Opcional) Otras soluciones. En caso de querer probar otras soluciones (completas o parciales) se agregan en `solutions/[sol].[lang]`, así como en `tests.json`, con el veredicto o puntaje esperado.
-
-  - (Opcional) `solutions/es.markdown`. Es un documento que explica la solución oficial.
-
-* `cases/`
+- `cases/`
 
   - Aquí van los casos ya sea manualmente o autogenerados, siguiendo la especificación de la entrada. Aquí van los `.in` y no se debe poner las salidas pues estas serán autogeneradas por la solución modelo.
 
   - En caso de que tus casos sean autogenerados, incluye el código que los generó en la raíz del problema, con el nombre `case-generator.[lang]`.
 
-* `testplan`
+- `.gitignore`. Agrega este archivo para que se autogeneren las salidas de los casos. Debe contener lo siguiente:
+
+  ```
+  **/*.out
+  ```
+
+- `testplan`
 
   - Haz un `testplan` para los casos. No puede tener puntos decimales y
-  necesariamente debe sumar 100. Recuerda que este archivo no tiene extensión.
+    necesariamente debe sumar 100. Recuerda que este archivo no tiene extensión.
 
 Finalmente, se agrega el problema a `problems.json`.
 
