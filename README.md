@@ -19,13 +19,13 @@ Crea una carpeta con el nombre del problema. Puedes copiar la carpeta llamada `p
 
 - `settings.json`.
 
-  - [Puedes tomarlo de aquí](https://github.com/ComiteMexicanoDeInformatica/OMI-2019/blob/master/omi-2019/OMI-2019-Spider-Man/settings.json). Modifica el `title`, `source` y en `alias` debes poner `"dummy-cr"`.
+  - Modifica el `title` y `source` con el nombre y autor del problema, respectivamente.
 
 - `statements/`
 
   - `es.markdown`. La redacción del problema. Para visualizar el formato puedes usar [https://omegaup.com/redaccion.php](https://omegaup.com/redaccion.php)
 
-  - (Opcional) `plantilla.py`. Si tu problema tiene plantilla para mostrar en el problema, añade este archivo. Además, al final del `es.markdown` debes insertar lo siguiente:
+  - (Opcional) `plantilla.py`. Si tu problema tiene plantilla para mostrar en el problema, añade este archivo. Además, al final del archivo `es.markdown` (la redacción del problema) debes insertar lo siguiente:
 
     ```
     <details><summary>Checa la `plantilla.py`</summary>
@@ -63,7 +63,7 @@ Crea una carpeta con el nombre del problema. Puedes copiar la carpeta llamada `p
 
 - `cases/`
 
-  - Aquí van los casos ya sea manualmente o autogenerados, siguiendo la especificación de la entrada. Aquí van los `.in` y no se debe poner las salidas pues estas serán autogeneradas por la solución modelo.
+  - Aquí van los casos ya sea manualmente o autogenerados, siguiendo la especificación de la entrada. Aquí van las entradas (archivos `.in`) y no se debe poner las salidas pues estas serán autogeneradas por la solución modelo.
 
   - En caso de que tus casos sean autogenerados, incluye el código que los generó en la raíz del problema, con el nombre `case-generator.[lang]`.
 
