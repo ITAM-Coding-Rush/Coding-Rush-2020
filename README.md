@@ -15,7 +15,7 @@ archivos individuales `settings.json` en las carpetas de cada problema.
 El flujo de trabajo para hacer un problema es _estrictamente_
 el siguiente. En todos los casos, **se debe hacer una branch y posteriormente un pull request** para subir un problema. Es decir, NO hacer push desde la branch _master_.
 
-Crea una carpeta con el nombre del problema. Puedes copiar la carpeta llamada `problem-template`. Esta nueva carpeta debe contener los siguientes elementos:
+Crea una carpeta con el nombre del problema (puedes copiar la carpeta llamada `problem-template`). Esta nueva carpeta debe contener los siguientes elementos:
 
 - `settings.json`.
 
@@ -29,7 +29,9 @@ Crea una carpeta con el nombre del problema. Puedes copiar la carpeta llamada `p
 
     ```
     <details><summary>Checa la `plantilla.py`</summary>
+
     {{plantilla.py}}
+    
     </details>
     ```
 
