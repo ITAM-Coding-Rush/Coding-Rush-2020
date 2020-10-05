@@ -7,8 +7,7 @@ Debes saber que el supermercado al que asiste ofrece un descuento dependiendo de
 - Si el precio total fue mayor o igual a \$250 y menor a \$500 se aplica un descuento del 5%.
 - Si el precio total fue mayor o igual a \$500 y menor a \$1000 se aplica un descuento del 10%.
 - Si el precio total fue mayor o igual a \$1000 se aplica un descuento del 15%.
-  Sin embargo, Lorena a veces se equivoca y suma erróneamente los precios, por lo que tú, como gran amigo que eres, te ofreces a
-  ayudarle y le prometes hacer un programa que le ayude a calcular el precio final incluyendo el descuento.
+  Sin embargo, Lorena a veces se equivoca y suma erróneamente los precios, por lo que tú, como gran amigo que eres, te ofreces a ayudarle y le prometes hacer un programa que le ayude a calcular el precio final incluyendo el descuento.
 
 # Entrada
 
