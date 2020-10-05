@@ -8,13 +8,36 @@ import unittest
 
 from omegaup.validator import validatortest
 
+
 class Test(unittest.TestCase):
     def test(self):
         with open('data.in', 'r') as handle:
             original_input = handle.read()
 
-        # Aquí añade los checks necesarios de la entrada
-        self.assertTrue(True)
+        lines = original_input.split('\n')
+
+        # En la la primera línea, un entero N
+        regex = re.compile(r'^(\d+)$')
+        self.assertTrue(regex.match(lines[0]))
+        N = int(lines[0])
+        self.assertTrue(1 <= N <= 100000)
+
+        # En la segunda línea, un entero K
+        regex = re.compile(r'^(\d+)$')
+        self.assertTrue(regex.match(lines[1]))
+        K = int(lines[1])
+        self.assertTrue(0 <= K <= 1e9)
+
+        # En las siguientes N líneas el arreglo
+        lines = lines[2:]
+        self.assertEqual(len(lines), N)
+        for line in lines:
+            # Cada línea debe tener un número A_i
+            regex = re.compile(r'^(\d+)$')
+            self.assertTrue(regex.match(line))
+            # El número es menor a 1e9
+            x = int(line)
+            self.assertTrue(0 <= x <= 1e9)
 
 
 if __name__ == '__main__':
