@@ -3,6 +3,18 @@
     {
       "filename": "../solutions/solution.py",
       "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionB.py",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/parcial-cuadrada.py",
+      "score-range": [0, 0.60]
+    },
+    {
+      "filename": "../solutions/parcial-cubica.py",
+      "score-range": [0, 0.30]
     }
   ],
   "inputs": {
