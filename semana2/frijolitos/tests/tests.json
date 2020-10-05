@@ -10,11 +10,11 @@
     },
     {
       "filename": "../solutions/parcial-cuadrada.py",
-      "score-range": [0, 0.60]
+      "score_range": [0, 0.60]
     },
     {
       "filename": "../solutions/parcial-cubica.py",
-      "score-range": [0, 0.30]
+      "score_range": [0, 0.30]
     }
   ],
   "inputs": {
