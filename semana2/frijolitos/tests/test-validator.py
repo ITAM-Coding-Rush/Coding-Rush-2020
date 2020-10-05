@@ -14,10 +14,7 @@ class Test(unittest.TestCase):
         with open('data.in', 'r') as handle:
             original_input = handle.read()
 
-        # Aquí añade los checks necesarios de la entrada
         lines = original_input.split('\n')
-        self.assertEqual(lines[-1], '')
-        lines.pop()
 
         # En las primeras dos líneas hay dos números, n y k
         regex = re.compile(r'^(\d+)\n(\d+)$')
