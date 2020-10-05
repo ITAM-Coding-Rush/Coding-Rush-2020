@@ -5,7 +5,7 @@ precio = -1
 
 while precio != 0:
     precio = int(input())
-    suma = suma + n
+    suma = suma + precio
 
 if suma >= 250 and suma < 500:
     total = suma * 0.95
