@@ -31,7 +31,7 @@ Crea una carpeta con el nombre del problema (puedes copiar la carpeta llamada `p
     <details><summary>Checa la `plantilla.py`</summary>
 
     {{plantilla.py}}
-    
+
     </details>
     ```
 
