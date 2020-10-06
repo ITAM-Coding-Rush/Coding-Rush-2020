@@ -10,45 +10,27 @@
     },
     {
       "filename": "../solutions/reprobaras.py",
-      "score_range": [
-        0,
-        0.2
-      ]
+      "score_range": [0, 0.2]
     },
     {
       "filename": "../solutions/6.py",
-      "score_range": [
-        0,
-        0.2
-      ]
+      "score_range": [0, 0.2]
     },
     {
       "filename": "../solutions/7.py",
-      "score_range": [
-        0,
-        0.2
-      ]
+      "score_range": [0, 0.2]
     },
     {
       "filename": "../solutions/8.py",
-      "score_range": [
-        0,
-        0.2
-      ]
+      "score_range": [0, 0.2]
     },
     {
       "filename": "../solutions/9.py",
-      "score_range": [
-        0,
-        0.2
-      ]
+      "score_range": [0, 0.2]
     },
     {
       "filename": "../solutions/10.py",
-      "score_range": [
-        0,
-        0.2
-      ]
+      "score_range": [0, 0.2]
     }
   ],
   "inputs": {
