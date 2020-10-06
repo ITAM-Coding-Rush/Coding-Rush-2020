@@ -32,7 +32,7 @@ Deberás imprimir el precio total a pagar con el descuento aplicado.
 ||end
 
 <details>
-<summary>Revisa la plantilla: 'plantilla.py'</summary>
+<summary>Revisa la plantilla: `plantilla.py`</summary>
 
 {{plantilla.py}}
 
