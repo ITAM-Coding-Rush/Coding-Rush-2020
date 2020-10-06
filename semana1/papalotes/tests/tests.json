@@ -3,6 +3,14 @@
     {
       "filename": "../solutions/solution.py",
       "verdict": "AC"
+    },
+    {
+      "filename": "../../../default-bad-solutions/SI.py",
+      "score_range": [0, 0]
+    },
+    {
+      "filename": "../../../default-bad-solutions/NO.py",
+      "score_range": [0, 0]
     }
   ],
   "inputs": {
