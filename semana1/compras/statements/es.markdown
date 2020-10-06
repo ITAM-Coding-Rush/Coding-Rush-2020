@@ -16,7 +16,9 @@ En cada línea encontrarás precios (enteros), uno por uno, de los productos que
 
 # Salida
 
-Deberás imprimir el precio total a pagar con el descuento aplicado.
+Deberás imprimir el precio total a pagar con el descuento aplicado redondeado a dos decimales. El formato que deberás imprimirlo es el siguiente (sin comillas): "El precio total es: [total]"
+
+Nota: para redondear un número x a dos decimales puedes usar la función `round(x, 2)`.
 
 # Ejemplo
 
@@ -29,12 +31,12 @@ Deberás imprimir el precio total a pagar con el descuento aplicado.
 48
 0
 ||output
-461.7
+El precio total es: 461.7
 ||end
 
-* Limites
+- Limites
 
-* El precio de cada producto está entre 1 y 1000
+- El precio de cada producto está entre 1 y 1000
 
 <details>
 <summary>Revisa la plantilla: `plantilla.py`</summary>

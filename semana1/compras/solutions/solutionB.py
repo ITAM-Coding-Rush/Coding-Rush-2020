@@ -13,4 +13,4 @@ elif total >= 500:
 elif total >= 250:
     ans -= total * 0.05
 
-print(ans)
+print("El precio total es: {}".format(round(ans, 2)))
