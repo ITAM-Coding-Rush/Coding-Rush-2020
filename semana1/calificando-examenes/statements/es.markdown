@@ -1,6 +1,6 @@
 # Descripción
 
-El señor Felipe, un distinguido profesor de la universidad, tiene la tarea de calificar varios exámenes en muy poco tiempo. Además de esta ardua tarea, el profesor debe obtener el promedio de las calificaciones obtenidas por las alumnas y los alumnos para así saber cual fue el promedio general del salón. 
+El señor Felipe, un distinguido profesor de la universidad, tiene la tarea de calificar varios exámenes en muy poco tiempo. Además de esta ardua tarea, el profesor debe obtener el promedio de las calificaciones obtenidas por las alumnas y los alumnos para así saber cuál fue el promedio general del salón.
 
 Para lograr esto, te ha contratado como programador para que hagas un código que obtenga este promedio.
 
