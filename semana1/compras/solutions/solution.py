@@ -16,4 +16,4 @@ elif suma >= 1000:
 else:
     total = suma
     
-print("El precio total es: " + str(total))
+print("El precio total es: " + str(round(total, 2)))
