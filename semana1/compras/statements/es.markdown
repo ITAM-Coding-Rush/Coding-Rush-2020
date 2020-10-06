@@ -34,7 +34,7 @@ Nota: para redondear un número x a dos decimales puedes usar la función `round
 El precio total es: 461.7
 ||end
 
-- Limites
+# Limites
 
 - El precio de cada producto está entre 1 y 1000
 
