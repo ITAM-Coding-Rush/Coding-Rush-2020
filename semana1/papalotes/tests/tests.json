@@ -5,11 +5,11 @@
       "verdict": "AC"
     },
     {
-      "filename": "../../default-bad-solutions/SI.py",
+      "filename": "../../../default-bad-solutions/SI.py",
       "score_range": [0, 0]
     },
     {
-      "filename": "../../default-bad-solutions/SI.py",
+      "filename": "../../../default-bad-solutions/SI.py",
       "score_range": [0, 0]
     }
   ],
