@@ -11,7 +11,7 @@ Tres enteros $a$, $b$, $c$ que indiquen la calificación que sacó en Antenas, e
 
 #Salida
 Si existe tal calificación mínima(número entero), una concatenación de caracteres que diga lo siguiente:
-"Pablo será candidato a la mención honorífica si su calificación en Seminario de Titulación fuera de $n$", donde $n$ representa lo mínimo que necesita sacar. 
+"Pablo será candidato a la mención honorífica si su calificación en Seminario de Titulación es de $n$", donde $n$ representa lo mínimo que necesita sacar. 
 Si es imposible escribe lo siguiente:
 "No hay poder humano que haga que Pablo obtenga su mención honorífica".
 
@@ -26,7 +26,9 @@ Si es imposible escribe lo siguiente:
 Pablo será candidato a la mención honorífica si su calificación en Seminario de Titulación es de 8.
 
 ||input
-6
+6 
+6 
+9
 
 || output
 No hay poder humano que haga que Pablo obtenga su mención honorífica.
