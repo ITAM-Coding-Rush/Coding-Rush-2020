@@ -1,6 +1,6 @@
 {
-  "title": "Bienvenidos Alumnos",
-  "source": "Coding Rush Otoño 2020 (Octavio Oropez)",
+  "title": "Estudiando en línea",
+  "source": "Coding Rush Otoño 2020 (Guillermo Vega + Juan Carlos Sigler Priego)",
 
   "limits": {
     "TimeLimit": 1000,
@@ -17,7 +17,7 @@
     }
   },
   "misc": {
-    "alias": "dummy-cr",
+    "alias": "CR-2020-Estudiando-en-linea",
     "visibility": "private",
     "languages": "all",
     "email_clarifications": 0,

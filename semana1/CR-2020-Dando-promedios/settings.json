@@ -1,6 +1,6 @@
 {
-  "title": "Los Papalotes de Andrea",
-  "source": "Coding Rush Otoño 2020 (Andrea Aguilar)",
+  "title": "Dando promedios",
+  "source": "Coding Rush Otoño 2020 (Alexis Sánchez + Juan Carlos Sigler Priego)",
 
   "limits": {
     "TimeLimit": 1000,
@@ -17,7 +17,7 @@
     }
   },
   "misc": {
-    "alias": "dummy-cr",
+    "alias": "CR-2020-Dando-promedios",
     "visibility": "private",
     "languages": "all",
     "email_clarifications": 0,

@@ -1,6 +1,6 @@
 {
-  "title": "Calificando exámenes",
-  "source": "Coding Rush Otoño 2020 (Alexis Sánchez)",
+  "title": "Bonitos papalotes",
+  "source": "Coding Rush Otoño 2020 (Andrea Aguilar + Armando Limón)",
 
   "limits": {
     "TimeLimit": 1000,
@@ -17,7 +17,7 @@
     }
   },
   "misc": {
-    "alias": "dummy-cr",
+    "alias": "CR-2020-Bonitos-papalotes",
     "visibility": "private",
     "languages": "all",
     "email_clarifications": 0,

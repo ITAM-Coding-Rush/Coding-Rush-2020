@@ -1,6 +1,6 @@
 {
-  "title": "Las compras de Lorena",
-  "source": "Coding Rush Otoño 2020 (Armando Limón Bautista)",
+  "title": "C-minario de titulación",
+  "source": "Coding Rush Otoño 2020 (Andrea Castañeda + Yosshua Cisneros)",
 
   "limits": {
     "TimeLimit": 1000,
@@ -17,7 +17,7 @@
     }
   },
   "misc": {
-    "alias": "dummy-cr",
+    "alias": "CR-2020-C-minario-de-Titulacion",
     "visibility": "private",
     "languages": "all",
     "email_clarifications": 0,

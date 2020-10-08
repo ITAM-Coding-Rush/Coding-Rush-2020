@@ -1,6 +1,6 @@
 {
-  "title": "Promedio secreto",
-  "source": "Coding Rush Otoño 2020 (Andrea Castañeda + Yosshua Cisneros)",
+  "title": "¡A presentarse!",
+  "source": "Coding Rush Otoño 2020 (Octavio Oropez + Pau Garza)",
 
   "limits": {
     "TimeLimit": 1000,
@@ -17,7 +17,7 @@
     }
   },
   "misc": {
-    "alias": "dummy-cr",
+    "alias": "CR-2020-A-presentarse",
     "visibility": "private",
     "languages": "all",
     "email_clarifications": 0,

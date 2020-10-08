@@ -1,6 +1,6 @@
 {
-  "title": "Malditas clases online",
-  "source": "Coding Rush Otoño 2020 (Guillermo Vega)",
+  "title": "Festín en el supermercado",
+  "source": "Coding Rush Otoño 2020 (Armando Limón)",
 
   "limits": {
     "TimeLimit": 1000,
@@ -17,7 +17,7 @@
     }
   },
   "misc": {
-    "alias": "dummy-cr",
+    "alias": "CR-2020-Festin-en-el-super",
     "visibility": "private",
     "languages": "all",
     "email_clarifications": 0,
