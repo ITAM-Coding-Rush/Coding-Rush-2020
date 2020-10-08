@@ -1,5 +1,5 @@
 {
-  "title": "Promedio secreto",
+  "title": "C-minario de titulación",
   "source": "Coding Rush Otoño 2020 (Andrea Castañeda + Yosshua Cisneros)",
 
   "limits": {
@@ -17,7 +17,7 @@
     }
   },
   "misc": {
-    "alias": "dummy-cr",
+    "alias": "CR-2020-C-minario-de-Titulacion",
     "visibility": "private",
     "languages": "all",
     "email_clarifications": 0,
