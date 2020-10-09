@@ -12,7 +12,7 @@ Donde [nombre] y [edad] son variables que su programa debe leer.
 
 En la primera línea, una cadena (string) que contenga el nombre de un alumno del Coding Rush.
 
-En la segunda línea, un entero que represente la edad del alumno del Coding Rush.
+En la segunda línea, un entero que representa la edad del alumno del Coding Rush.
 
 # Salida
 
