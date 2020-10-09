@@ -1,10 +1,10 @@
 #Lee el nombre del alumno
-nombre = 
+nombre =
 #Lee la edad del alumno (recordar que la edad es un entero)
 edad = int()
 
 #Crea la concatenación
-res = " " +  + "  " +  + " "
+res = "Mi nombre es " +  + " y tengo " +  + " años"
 
 #Imprime la salida
 print()
