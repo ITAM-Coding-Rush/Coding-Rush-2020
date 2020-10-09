@@ -3,7 +3,7 @@ c1 =
 c2 =
 c3 =
 
-#Calcula la calificacion que necesitaria para obtener su mencion
+#Calcula la calificacion que necesitaria para obtener su mención
 c =
 
 #Usa esta variable para concatenar tu respuesta final
