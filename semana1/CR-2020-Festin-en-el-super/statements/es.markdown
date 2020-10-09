@@ -1,6 +1,6 @@
 # Descripción
 
-Siempre que va al supermercado, Lorena registra el precio de todas los productos que compra para calcular cuánto gastó.
+Siempre que Lorena va al supermercado registra el precio de todos los productos que compra para calcular cuánto gastó.
 Debes saber que el supermercado al que asiste ofrece un descuento dependiendo del costo total pagado:
 
 - Si el precio total fue menor a \$250 NO se aplica ningún descuento.
@@ -18,7 +18,7 @@ En cada línea encontrarás precios (enteros), uno por uno, de los productos que
 
 Deberás imprimir el precio total a pagar con el descuento aplicado redondeado a dos decimales. El formato que deberás imprimirlo es el siguiente (sin comillas): "El precio total es: [total]"
 
-Nota: para redondear un número x a dos decimales puedes usar la función `round(x, 2)`.
+Nota: para redondear un número $x$ a dos decimales puedes usar la función `round(x, 2)`.
 
 # Ejemplo
 
