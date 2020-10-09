@@ -1,7 +1,7 @@
 suma = 0
 total = 0
-# ¿'precio' se puede inicializar en 0?
-precio = 
+
+precio =
 
 # ¿Qué condición se debe cumplir?
 while      :
@@ -18,6 +18,6 @@ elif      :
     # Aquí calculas el precio con el descuento aplicado.
 else:
     # ¿Qué pasa si ninguna condición se cumple?
-    
+
 # ¿Cómo concatenas una cadena de texto y un valor entero?
-print("El precio total es: "      )
+print("El precio total es: " +     )
