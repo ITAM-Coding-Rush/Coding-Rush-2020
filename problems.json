@@ -1,9 +1,6 @@
 {
   "problems": [
     {
-      "path": "semana2/frijolitos"
-    },
-    {
       "path": "semana1/CR-2020-Festin-en-el-super"
     },
     {
@@ -20,6 +17,15 @@
     },
     {
       "path": "semana1/CR-2020-C-minario-de-Titulacion"
+    },
+    {
+      "path": "semana2/frijolitos"
+    },
+    {
+      "path": "semana2/tweets"
+    },
+    {
+      "path": "semana2/amongus"
     },
     {
       "path": "semana2/mascotas"
