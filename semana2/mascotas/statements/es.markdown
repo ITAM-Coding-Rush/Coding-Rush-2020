@@ -1,4 +1,5 @@
-#Descripción
+# Descripción
+
 Andrea tiene muchas mascotas y le encanta complicarle la vida a sus amigos. Decidió que cuando le pregunten algo sobre sus mascotas les dirá lo
 siguiente:
 
@@ -7,13 +8,15 @@ siguiente:
 
 Ayuda a los amigos de Andrea a que descubran que tipo de animal es cada una de sus mascotas.
 
-#Entrada
+# Entrada
+
 Primero un entero $N$ indicando el número de mascotas que tiene Andrea.
 Después vendrán $N$ líneas. Cada línea $N_i$ representa cada uno de los nombres de las mascotas de Andrea.
 
 NOTA: Se te asegura que todos los nombres contendrán únicamente letras minúsculas.
 
-#Salida
+# Salida
+
 4 líneas en el siguiente orden y con el siguiente formato (sin comillas):
 
 "Tiene $W$ perros macho"
@@ -26,7 +29,8 @@ NOTA: Se te asegura que todos los nombres contendrán únicamente letras minúsc
 
 Donde $W$ es el número de perros macho que tiene Andrea, $X$ el número de perros hembra, $Y$ el número de gatos macho y $Z$ el número de gatos hembra.
 
-#Ejemplo
+# Ejemplo
+
 ||input
 5
 ojitos
@@ -40,10 +44,11 @@ Tiene 3 perros hembra
 Tiene 1 gatos macho
 Tiene 1 gatos hembra
 ||end
-#Límites
-0 < $N$ < 100
 
-0 < $len(N_i)$ < 100,000
+# Límites
+
+- $0 < N < 100$
+- $0 < len(N_i) < 100,000$
 
 <details><summary>Checa la `plantilla.py`</summary>
 
