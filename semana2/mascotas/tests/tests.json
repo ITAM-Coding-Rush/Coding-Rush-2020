@@ -6,7 +6,7 @@
     },
     {
       "filename": "../solutions/solutionB.py",
-      "score_range": [0, 0.75]
+      "verdict": "AC"
     }
   ],
   "inputs": {
