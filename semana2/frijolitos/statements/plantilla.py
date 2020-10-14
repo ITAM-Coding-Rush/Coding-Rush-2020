@@ -1,16 +1,12 @@
+# Este es el problema difícil, por lo que solo te podemos ayudar leyendo los datos
 # Leer n y k
-n = 
-k = 
+n = int(input())
+k = int(input())
 
-# Leer el arreglo
-A = 
+# Leer el arreglo.
+A = []
+for i in range(n):
+    A += [int(input())]
 
-# Aquí tienes que hacer un for y calculo de suma
-i = -1
-suma = 0
-ans = 0
-for j in range(n):
-    # Has aquí algo
+# Ahora resuelve el problema!
 
-# Imprimir la respuesta
-print(ans)
