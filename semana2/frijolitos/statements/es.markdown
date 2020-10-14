@@ -38,6 +38,7 @@ Nota que el subarreglo [10, 5] no se cuenta ya que 15 no es estrictamente menor 
 - $ 1 \leq n \leq 100,000$
 - $0 \leq k \leq 10^9$
 - $0 \leq A_i \leq 10^9$
+- Para el 50% de los casos, $1 \leq n \leq 10000$
 
 <details><summary>Checa la `plantilla.py`</summary>
 
