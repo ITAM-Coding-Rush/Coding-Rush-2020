@@ -20,7 +20,8 @@ for i in range(cases):
     caseName = '{}.in'.format(i)
 
     n = random.randint(1, 100)
-    tweets = [' '.join([random.choice(i) for i in l for t in range(random.randint(1, 6))]) for j in range(n)]
+    tweets = [' '.join([random.choice(i) for t in range(
+        random.randint(1, 6)) for i in l]) for j in range(n)]
 
     case = {
         'N': str(n),
