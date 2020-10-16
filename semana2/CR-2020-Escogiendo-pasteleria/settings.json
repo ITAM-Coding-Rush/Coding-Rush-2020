@@ -1,6 +1,6 @@
 {
-  "title": "El Among Us",
-  "source": "Coding Rush Otoño 2020 (José Manuel Martínez)",
+  "title": "El Pastel",
+  "source": "Coding Rush Otoño 2020 (Sebastián Valderrábano Cabrera)",
 
   "limits": {
     "TimeLimit": 1000,
@@ -17,7 +17,7 @@
     }
   },
   "misc": {
-    "alias": "dummy-cr",
+    "alias": "CR-2020-Escogiendo-pasteleria",
     "visibility": "private",
     "languages": "all",
     "email_clarifications": 0,

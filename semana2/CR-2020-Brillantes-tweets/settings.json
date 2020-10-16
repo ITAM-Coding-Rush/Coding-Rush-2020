@@ -1,5 +1,5 @@
 {
-  "title": "Tweets",
+  "title": "Brillantes tweets",
   "source": "Coding Rush Otoño 2020 (Rodrigo González + Juan Carlos Sigler Priego)",
 
   "limits": {
@@ -17,7 +17,7 @@
     }
   },
   "misc": {
-    "alias": "dummy-cr",
+    "alias": "CR-2020-Brillantes-tweets",
     "visibility": "private",
     "languages": "all",
     "email_clarifications": 0,

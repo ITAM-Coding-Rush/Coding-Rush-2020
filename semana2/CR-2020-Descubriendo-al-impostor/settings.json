@@ -1,6 +1,6 @@
 {
-  "title": "Frijolitos",
-  "source": "Coding Rush Otoño 2020 (Juan Carlos Sigler Priego)",
+  "title": "Descubriendo al impostor",
+  "source": "Coding Rush Otoño 2020 (José Manuel Martínez)",
 
   "limits": {
     "TimeLimit": 1000,
@@ -17,7 +17,7 @@
     }
   },
   "misc": {
-    "alias": "dummy-cr",
+    "alias": "CR-2020-Descubriendo-al-impostor",
     "visibility": "private",
     "languages": "all",
     "email_clarifications": 0,
