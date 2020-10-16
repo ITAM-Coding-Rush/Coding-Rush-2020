@@ -1,6 +1,6 @@
 {
-  "title": "Tweets",
-  "source": "Coding Rush Otoño 2020 (Rodrigo González + Juan Carlos Sigler Priego)",
+  "title": "Clasificando mascotas",
+  "source": "Coding Rush Otoño 2020 (Andrea Aguilar + Alexander Obeid)",
 
   "limits": {
     "TimeLimit": 1000,
@@ -17,7 +17,7 @@
     }
   },
   "misc": {
-    "alias": "dummy-cr",
+    "alias": "CR-2020-Clasificando-mascotas",
     "visibility": "private",
     "languages": "all",
     "email_clarifications": 0,
