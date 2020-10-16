@@ -1,4 +1,5 @@
 # Descripción
+
 Andrea, mejor conocida como la chica pan, le debe un pastel a Sebastián, pero por culpa de la cuarentena no ha podido pagarselo.
 Dado que casi no sale de casa no sabe si la mejor opción es comprarlo en una pastelería cercana a la casa de Sebastián, mandarlo por Rappi o cocinarlo ella misma.
 Andrea te dará la lista de locales donde cree que podrían vender pasteles, pero la lista es tan grande que prefiere solo contar con los lugares que tengan 'Pastel' en el nombre.
@@ -11,11 +12,11 @@ Ayuda a Andrea a decidir que hacer.
 
 Recibirás una $N$ con el número de lugares a revisar.
 
-A continuación recibirás $N$ Strings  con el nombre de los lugares.
+A continuación recibirás $N$ Strings con el nombre de los lugares.
 
 # Salida
 
-- 'Pedir por Rappi' si más de 15 lugares tienen 'pastel' en el nombre. 
+- 'Pedir por Rappi' si más de 15 lugares tienen 'pastel' en el nombre.
 - 'Elegir Personalmente' si hay entre 1 y 15 lugares con 'pastel en el nombre'.
 - 'Cocinar' si no hay lugares que tienen 'pastel' en el nombre.
 

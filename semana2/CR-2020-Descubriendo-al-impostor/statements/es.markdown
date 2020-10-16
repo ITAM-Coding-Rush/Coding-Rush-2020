@@ -16,7 +16,7 @@ Después, recibirás $N$ strings, que son lo que cada jugador contestó al ser i
 - Si el jugador $i$ ha dicho **hm** deberás imprimir: _El jugador $i$ es el impostor_
 - Si más de un jugador ha dicho _hm_ deberás imprimir: _Skip_
 
-# Ejemplo:
+# Ejemplo
 
 ||input
 4

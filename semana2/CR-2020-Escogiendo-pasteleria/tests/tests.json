@@ -6,15 +6,15 @@
     },
     {
       "filename": "../solutions/solution_chafa1.py",
-      "score_range":[0,0.10]
+      "score_range": [0, 0.1]
     },
     {
       "filename": "../solutions/solution_chafa2.py",
-      "score_range":[0,0.10]
+      "score_range": [0, 0.1]
     },
     {
       "filename": "../solutions/solution_chafa3.py",
-      "score_range":[0,0.10]
+      "score_range": [0, 0.1]
     }
   ],
   "inputs": {
