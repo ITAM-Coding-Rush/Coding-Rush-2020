@@ -19,14 +19,14 @@ Para cada tweet deberás imprimir dos líneas. En la primera, la cadena "Correct
 ||input
 2
 Si esperas el momento adecuado, puede que siempre te quedes esperando.
-Cuando tenemos una mentalidad demasiado rígida puede ser perjudicial para nuestro bienestar, pues, somo incapaces de ser objetivos.
+Cuando tenemos una mentalidad demasiado rígida puede ser perjudicial para nuestro bienestar, pues, somos incapaces de ser objetivos.
 ||output
 Correcto
 80
 Incorrecto
-148
+149
 ||description
-Hay dos tweets, el primero cuenta como 80 caracteres y el segundo cuenta como 148 caracteres.
+Hay dos tweets, el primero cuenta como 80 caracteres y el segundo cuenta como 149 caracteres.
 ||end
 
 # Límites
