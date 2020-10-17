@@ -1,5 +1,5 @@
 n =
-W=X=Y=Z=
+W = X = Y = Z =
 for i in range():
 
 

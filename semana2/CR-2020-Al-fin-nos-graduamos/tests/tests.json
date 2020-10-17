@@ -5,6 +5,10 @@
       "verdict": "AC"
     },
     {
+      "filename": "../solutions/solutionB.py",
+      "verdict": "AC"
+    },
+    {
       "filename": "../solutions/f.py",
       "score_range": [0.0, 0.1]
     },

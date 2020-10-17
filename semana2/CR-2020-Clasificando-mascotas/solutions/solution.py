@@ -1,5 +1,5 @@
 n = int(input())
-W=X=Y=Z=0
+W = X = Y = Z = 0
 for i in range(n):
     mascota = input()
     if len(mascota) <= 5:
