@@ -26,7 +26,7 @@ Un solo entero, el número de subarreglos que cumplen que su suma sea menor a $k
 2
 6
 ||output
-2
+7
 ||description
 Nuestro arreglo se ve así: [10, 5, 2, 6].
 Los 7 subarreglos que tienen menos de 15 frijolitos son son: [10], [5], [2], [6], [5, 2], [2, 6], [5, 2, 6].
