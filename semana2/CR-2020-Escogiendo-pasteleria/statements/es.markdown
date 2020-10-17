@@ -28,7 +28,7 @@ papapasteles papapadrisimos
 Panes Don Brandon
 Papapapanes dulces
 ||output
-Elegir Personalmente
+Elegir personalmente
 ||description
 Solo hay 3 pastelerías con "pastel" en el nombre, por lo que Andrea tendrá que elegir personalmente el pastel
 
