@@ -12,7 +12,7 @@ for i in range(n):
         PrimerSospechoso = i + 1
 
 if impostores == 0:
-  print("Javiercillo es el impostor")
+  print("Javiercito es el impostor")
 elif impostores == 1:
   print("El jugador " + str(PrimerSospechoso) + " es el impostor")
 else:

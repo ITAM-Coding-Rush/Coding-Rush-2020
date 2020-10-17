@@ -4,7 +4,7 @@ arr = [input() for i in range(n)]
 impostor = [1 if "hm" in st else 0 for st in arr]
 
 if sum(impostor) == 0:
-    print("Javiercillo es el impostor")
+    print("Javiercito es el impostor")
 elif sum(impostor) > 1:
     print("Skip")
 else:
