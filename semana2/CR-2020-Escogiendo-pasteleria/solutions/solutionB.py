@@ -1,6 +1,6 @@
 n = int(input())
 lugares = [input() for i in range(n)]
-arr = [1 if 'pastel' else 0 in lugar for lugar in lugares]
+arr = [1 if 'pastel' in lugar else 0 for lugar in lugares]
 
 p = sum(arr)
 if p > 15:
