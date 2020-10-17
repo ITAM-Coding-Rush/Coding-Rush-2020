@@ -2,7 +2,7 @@
 
 "Al fin nos graduamos" fue la frase célebre que le dijo Sebastián, alias "El fósil", a su amigo Brandon a la hora de meter sus últimas materias en el ITAM. Sebastián, alumno de Computación, está en su último semestre y lo está festejando como si hubiera ganado la copa del mundo. Sus amigos, cansados de Sebastián por presumido, le advirtieron que le echara ganas o reprobaría y se quedaría de fósil un semestre más.
 
-Como Sebastián le anduvo peleando unos pasteles a Andrea, olvidó echarle ganas a sus materias, por lo que entregó pocas tareas y reprobó sus exámenes. Al final del semestre recibió sus calificaciones, pero las recibió en formato de String, por lo que te ha pedido ayuda para saber si pasó el semestre y se va a graduar, o deberá recursar. 
+Como Sebastián le anduvo peleando unos pasteles a Andrea, olvidó echarle ganas a sus materias, por lo que entregó pocas tareas y reprobó sus exámenes. Al final del semestre recibió sus calificaciones, pero las recibió en formato de String, por lo que te ha pedido ayuda para saber si pasó el semestre y se va a graduar, o deberá recursar.
 
 Sebastián **pasó el semestre si tiene más del 80% de materias aprobadas**. De lo contrario, está reprobado y tendrá que recursar.
 
