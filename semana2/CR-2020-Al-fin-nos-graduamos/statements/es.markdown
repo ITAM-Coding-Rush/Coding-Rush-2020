@@ -12,7 +12,7 @@ Un String compuesto por **A's** y **R's**, donde A implica **Aprobado** y R impl
 
 # Salida
 
-Un solo caracter. Deberás imprimir "G" (sin comillas), de Graduado, si Sebastián obtuvo más del 80% de sus materias aprobadas. Si no obtivo más del 80% de sus materias aprobadas, deberás imprimir "F" (sin comillas).
+Un solo caracter. Deberás imprimir "G" (sin comillas), de Graduado, si Sebastián obtuvo más del 80% de sus materias aprobadas. Si no obtuvo más del 80% de sus materias aprobadas, deberás imprimir "F" (sin comillas).
 
 # Ejemplos
 
