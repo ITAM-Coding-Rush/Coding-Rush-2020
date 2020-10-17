@@ -10,14 +10,15 @@ Ayuda a los amigos de Andrea a que descubran que tipo de animal es cada una de s
 
 # Entrada
 
-Primero un entero $N$ indicando el número de mascotas que tiene Andrea.
-Después vendrán $N$ líneas. Cada línea $N_i$ representa cada uno de los nombres de las mascotas de Andrea.
+En la primera línea un entero $N$ indicando el número de mascotas que tiene Andrea.
+
+Después vendrán $N$ líneas. Cada línea representa cada uno de los nombres de las mascotas de Andrea.
 
 NOTA: Se te asegura que todos los nombres contendrán únicamente letras minúsculas.
 
 # Salida
 
-4 líneas en el siguiente orden y con el siguiente formato (sin comillas):
+Deberás imprimir 4 líneas en el siguiente orden y con el siguiente formato (sin comillas):
 
 "Tiene $W$ perros macho"
 
@@ -48,7 +49,7 @@ Tiene 1 gatos hembra
 # Límites
 
 - $0 < N < 100$
-- $0 < len(N_i) < 100,000$
+- La longitud del nombre de las mascotas será menor a 100,000
 
 <details><summary>Checa la `plantilla.py`</summary>
 

@@ -8,13 +8,13 @@ Javiercito quiere que lo ayudes a determinar cuál de los amigos con los que jue
 
 Recibirás un entero $N$ entre 2 y 9, con el número de jugadores que quedan vivos (sin incluir a Javiercito).
 
-Después, recibirás $N$ strings, que son lo que cada jugador contestó al ser interrogado. El jugador ha dudado al decir su posición si ha dicho en alguna parte de su respuesta: **hm**.
+Después, recibirás $N$ strings, que son lo que cada jugador contestó al ser interrogado. El jugador ha dudado al decir su posición si ha dicho en alguna parte de su respuesta: _hm_.
 
 #Salida
 
-- Si ninguno de los jugadores ha dicho _hm_ deberás imprimir: _Javiercito es el impostor_
-- Si el jugador $i$ ha dicho **hm** deberás imprimir: _El jugador $i$ es el impostor_
-- Si más de un jugador ha dicho _hm_ deberás imprimir: _Skip_
+- Si ninguno de los jugadores ha dicho _hm_ deberás imprimir (sin comillas): "Javiercito es el impostor"
+- Si el jugador $i$ ha dicho _hm_ deberás imprimir (sin comillas): "El jugador $i$ es el impostor"
+- Si más de un jugador ha dicho _hm_ deberás imprimir (sin comillas): "Skip"
 
 # Ejemplo
 
@@ -36,7 +36,7 @@ Javiercito es el impostor
 
 # Límites
 
-$2 \leq N \leq 9$
+- $2 \leq N \leq 9$
 
 <details><summary>Revisa la `plantilla.py`</summary>
 
