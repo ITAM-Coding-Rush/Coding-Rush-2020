@@ -10,11 +10,11 @@
     },
     {
       "filename": "../solutions/fail.py",
-      "score_range": [0, 0.5]
+      "score_range": [0, 0.05]
     },
     {
       "filename": "../solutions/mejorado.py",
-      "score_range": [0, 0.5]
+      "score_range": [0, 0.05]
     }
   ],
   "inputs": {
