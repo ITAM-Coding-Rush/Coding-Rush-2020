@@ -2,7 +2,7 @@
 
 A Gatica le gusta mucho jugar boliche, pero últimamente ha perdido práctica. Ahora que por fin han vuelto a abrir los boliches, Gatica ha decidido estar horas sin parar en el boliche.
 
-Como va a estar muy ocupado practicando sus tiros, te ha pedido que le ayudes con un programa que le diga si ya mejoró y recuperó su toque o si aún le falta práctica. 
+Como va a estar muy ocupado practicando sus tiros, te ha pedido que le ayudes con un programa que le diga si ya mejoró y recuperó su toque o si aún le falta práctica.
 
 Gatica sabe que ha mejorado si el número de strikes (chuzas) que hizo es mayor o igual que el número de spares. De lo contrario él sabe que debe de seguir practicando sus tiros.
 
@@ -11,8 +11,8 @@ Gatica sabe que ha mejorado si el número de strikes (chuzas) que hizo es mayor 
 Una sola línea. Una linea que contiene todos los tiros de Gatica.
 
 - Los strikes se representan como una letra 'X' mayúscula.
-- Los spares se representan como una '/' diagonal. 
-- La línea de tiros pueden tener números, strikes y spares. 
+- Los spares se representan como una '/' diagonal.
+- La línea de tiros pueden tener números, strikes y spares.
 
 # Salida
 
