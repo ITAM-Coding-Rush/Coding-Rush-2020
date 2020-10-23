@@ -1,35 +1,23 @@
 n=int(input()) #numero de lecturas
-respuestas=[]
 
+shinys={}
 for i in range(n):
     k = int(input())#numero de pares de pokemones
-    dict = {}
     for j in range(k):
         pokemon = input()
         cantidad = int(input())
-        dict[pokemon]= cantidad
-    respuestas.append(dict)
-
-atrapados={}
-probabilidades={}
+        if pokemon in shinys:
+            shinys[pokemon]+= cantidad
+        else:
+            shinys[pokemon] = cantidad
 
 m=int(input())
 for i in range(m):
     pokemon = input()
     capturados = int(input())
     proba=float(input())
-    atrapados[pokemon]= capturados
-    probabilidades[pokemon]=proba
 
-shinys={}
-for x in respuestas:
-    for p in x.keys():
-        if p in shinys:
-            shinys[p]+= x[p]
-        else:
-            shinys[p] = x[p]
-
-for s in shinys.keys():
-    prob_recibida=float(shinys[s]/atrapados[s])
-    if(prob_recibida<probabilidades[s]):
-        print(s,": ",prob_recibida)
+    if pokemon in shinys:
+        prob_recibida = float(shinys[pokemon] / capturados)
+        if (prob_recibida < proba):
+            print(pokemon, ": ", prob_recibida)
