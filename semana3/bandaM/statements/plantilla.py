@@ -1,11 +1,11 @@
 lc = {}
-for i in range():
+for i in range(): # cuántas canciones serán?
         nombre = 
-        lc[nombre]= 
+        lc[nombre]= # qué valor debe tener inicialmente
 n = 
 for i in range(n):
         nom = 
-        lc[nom] = 
+        lc[nom] = # si ya está en el diccionario qué debes hacer?
 fav = input()
 
-print(lc[fav])
+print(lc[ ])  # a qué posición quieres acceder del diccionario?
