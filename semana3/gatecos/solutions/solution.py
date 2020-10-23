@@ -20,4 +20,4 @@ for i in range(m):
     if pokemon in shinys:
         prob_recibida = float(shinys[pokemon] / capturados)
         if (prob_recibida < proba):
-            print(pokemon, ": ", prob_recibida)
+            print(pokemon+": "+str(prob_recibida))

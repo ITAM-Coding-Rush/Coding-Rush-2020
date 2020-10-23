@@ -32,4 +32,4 @@ for x in respuestas:
 for s in shinys.keys():
     prob_recibida=float(shinys[s]/atrapados[s])
     if(prob_recibida<probabilidades[s]):
-        print(s,": ",prob_recibida)
+        print(s+": "+str(prob_recibida))

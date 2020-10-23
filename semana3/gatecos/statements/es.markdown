@@ -6,7 +6,7 @@ El te pasará las respuestas de los $N$ jugadores de esta semana donde cada una 
 
 Despues dará el número $M$ de Gatecos especiales que podían aparecer esa semana. Para cada uno de los $M$ gatecos te dirá cuántos Gatecos de este tipo capturaron los jugadores en la semana (normales y especiales) y la probabilidad que él tiene registrada como la probabilidad de aparición de este Gateco especial.
 
-Normalmente si los datos arrojan que se capturaron más Gatecos especiales de los que son probables, Gatica no actualiza esos datos y prefiere revisarlos manualmente, por eso te pide que le digas unicamente qué gatecos cumplen que esta semana la probabilidad de capturarlos fue menor a la esperada y cual fue dicha probabilidad.
+Normalmente si los datos arrojan que se capturaron más Gatecos especiales de los que son probables, Gatica no actualiza esos datos y prefiere revisarlos manualmente, por eso te pide que le digas unicamente qué gatecos cumplen que esta semana la probabilidad de capturarlos fue menor a la esperada y cual fue dicha probabilidad. Los pokemones deben estár ordenados alfabéticamente ya que así es más fácil para Gatica actualizar los datos así.
 
 
 
@@ -33,8 +33,9 @@ $M$ triadas de datos:
 - Probabilidad de que el Gateco fuera especial
 
 # Salida
+Ordenados alfabéticamente el nombre de los Gatecos y su probabilidad real de ser especial en el formato:
 
-Nombre del Gateco : probabilidad real de ser especial
+Nombre del Gateco: probabilidad real de ser especial
 
 # Ejemplo
 
@@ -72,8 +73,8 @@ bobosur
 20
 0.2
 ||output
-char :  0.4
-pkchu :  0.48
+char: 0.4
+pkchu: 0.48
 ||description
 En el caso de char y pkchu sus probabilidades de ser especial eran 0.6 y 0.8 respectivamente, como la probabilidad real fue menor se imprimen.
 
