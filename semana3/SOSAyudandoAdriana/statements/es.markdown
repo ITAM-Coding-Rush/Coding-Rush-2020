@@ -1,8 +1,6 @@
 # Descripción
 
-Adriana es encargada de Recursos Humanos, es domingo en la noche y está muy estresada porque no ha terminado de ver qué solicitantes sí son 
-candidatos al puesto de panadería del ITAM. Los solicitantes han llenado una encuesta, pero han dejado muchos espacios en blanco. Para el puesto,
-a Adriana le interesa que hayan contestado algunos campos como mínimo. Ayúdale escribiendo un programa que le permita acabar y dormir temprano.
+Adriana es encargada de Recursos Humanos, es domingo en la noche y está muy estresada porque no ha terminado de ver qué solicitantes sí son candidatos al puesto de panadería del ITAM. Los solicitantes han llenado una encuesta, pero han dejado muchos espacios en blanco. Para el puesto, a Adriana le interesa que hayan contestado algunos campos como mínimo. Ayúdale escribiendo un programa que le permita acabar y dormir temprano.
 
 # Entrada
 
