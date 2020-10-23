@@ -1,9 +1,12 @@
 # Descripción
 
 Gatica esta trabajando en su encuesta de Gateco Go desde que salió el juego. Cada semana actualiza los valores de probabilidad de capturar un Gateco especial, pero como quiere crear una pagina para obtener más datos y filtrarlos automaticamente te ha pedido a ti que le ayudes a revisar los datos mientras él trabaja.
-El te pasara $N$ respuestas de los jugadores donde cada respuesta tendrá $K_i$ pares de datos (Gateco y cantidad de Gatecos especiales capturados).
-Despues te pasara la lista de los $M$ Gatecos especiales disponibles esa semana, cuántos Gatecos capturaron de cada uno y la probabilidad de que fueran especiales.
-Normalmente si los datos arrojan que se capturaron más Gatecos especiales de los que son probables, Gatica no cuenta esos datos y prefiere revisarlos manualmente, por eso te pide que le digas unicamente qué gatecos cumplen que esta semana la probabilidad de capturarlos fue menor a la esperada y cual fue dicha probabilidad.
+
+El te pasará las respuestas de los $N$ jugadores de esta semana donde cada una de las respuestas contiene $K_i$ nombres de gatecos especiales y la cantidad de estos gatecos especiales que capturó el jugador $i$
+
+Despues dará el número $M$ de Gatecos especiales que podían aparecer esa semana. Para cada uno de los $M$ gatecos te dirá cuántos Gatecos de este tipo capturaron los jugadores en la semana (normales y especiales) y la probabilidad que él tiene registrada como la probabilidad de aparición de este Gateco especial.
+
+Normalmente si los datos arrojan que se capturaron más Gatecos especiales de los que son probables, Gatica no actualiza esos datos y prefiere revisarlos manualmente, por eso te pide que le digas unicamente qué gatecos cumplen que esta semana la probabilidad de capturarlos fue menor a la esperada y cual fue dicha probabilidad.
 
 
 
@@ -31,7 +34,7 @@ $M$ triadas de datos:
 
 # Salida
 
-Nombre del Gateco: probabilidad real de ser especial
+Nombre del Gateco : probabilidad real de ser especial
 
 # Ejemplo
 
