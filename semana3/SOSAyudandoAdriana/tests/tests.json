@@ -7,10 +7,6 @@
     {
       "filename": "../solutions/solution2.py",
       "verdict": "AC"
-    },
-    {
-      "filename": "../solutions/fail.py",
-      "score-range": [0,0]
     }
   ],
   "inputs": {
