@@ -20,7 +20,7 @@ contador = 0
 s = int(input())
 for i in range(s):
   camposImportantes = 0
-  camposLleandos = int(input())
+  camposLlenados = int(input())
 
   for j in range(camposLlenados):
     campo = input()
