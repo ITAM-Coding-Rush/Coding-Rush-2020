@@ -11,6 +11,10 @@
     {
       "filename": "../solutions/solutionB.py",
       "verdict": "AC"
+    },
+    {
+      "filename": "../../../default-bad-solutions/do_nothing.py",
+      "score_range": [0, 0.1]
     }
   ],
   "inputs": {
