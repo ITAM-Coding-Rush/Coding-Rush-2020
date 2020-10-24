@@ -1,4 +1,4 @@
-#leemos n y en un diccionario 
+#leemos n y en un diccionario
 #decimos si el campo nos importa o no
 #inicialmente ninguno nos importa
 n = int(input())
