@@ -26,7 +26,9 @@ Finalmente vendrán $M$ triadas de datos:
 
 # Salida
 
-Deberás imprimir el nombre y probabilidad real de captura de todos los gatecos que cumplen que la probabilidad de capturarlos fue menor a la esperada y cual fue dicha probabilidad, en el formato (sin comillas) "[Nombre del Gateco]: [probabilidad real de ser capturado]".
+Deberás imprimir el nombre y probabilidad real de captura de todos los gatecos que cumplen que la probabilidad real de capturarlos fue menor a la esperada y cual fue dicha probabilidad, en el formato (sin comillas) "[Nombre del Gateco]: [probabilidad real de ser capturado]".
+
+No importa el orden en que imprimas los gatecos.
 
 # Ejemplo
 

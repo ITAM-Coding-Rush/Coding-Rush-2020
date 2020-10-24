@@ -21,8 +21,8 @@ for i in range(m):
     prob = float(input())
     if gateco in capturados:
         prob_real = capturados[gateco] / tot
-        if prob_real < prob:
-            res += ["{}: {}".format(gateco, prob_real)]
+        # NO CHECA NADA, SOLO OBTIENE PROBABILIDAD
+        res += ["{}: {}".format(gateco, prob_real)]
 
 random.shuffle(res)
 print("\n".join(res))

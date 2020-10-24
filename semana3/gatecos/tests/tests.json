@@ -13,6 +13,10 @@
       "verdict": "AC"
     },
     {
+      "filename": "../solutions/sol_erronea.py",
+      "score_range": [0, 0.1]
+    },
+    {
       "filename": "../../../default-bad-solutions/do_nothing.py",
       "score_range": [0, 0.1]
     }
