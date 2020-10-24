@@ -7,8 +7,11 @@
     {
       "filename": "../solutions/solution_fea.py",
       "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionB.py",
+      "verdict": "AC"
     }
-
   ],
   "inputs": {
     "filename": "test-validator.py"
