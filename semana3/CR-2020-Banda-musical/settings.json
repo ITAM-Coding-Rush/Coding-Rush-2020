@@ -1,6 +1,6 @@
 {
-  "title": "Encuestas dudosas",
-  "source": "Coding Rush Otoño 2020 (Brandon Hernández Troncoso + Juan Carlos Sigler Priego)",
+  "title": "Banda musical",
+  "source": "Coding Rush Otoño 2020 (Rodrigo González + Yosshua Cisneros)",
 
   "limits": {
     "TimeLimit": 1000,
@@ -11,13 +11,13 @@
     "OverallWallTimeLimit": 60000
   },
   "validator": {
-    "name": "custom",
+    "name": "token-caseless",
     "limits": {
       "TimeLimit": 1000
     }
   },
   "misc": {
-    "alias": "dummy-cr",
+    "alias": "CR-2020-Banda-musical",
     "visibility": "private",
     "languages": "all",
     "email_clarifications": 0,

@@ -1,6 +1,6 @@
 {
-  "title": "¡SOS! Ayudando a Adriana",
-  "source": "Coding Rush Otoño 2020 (Carlos Delgado)",
+  "title": "Descifrando mensajes",
+  "source": "Coding Rush Otoño 2020 (Paulina Garza + Armando Limón)",
 
   "limits": {
     "TimeLimit": 1000,
@@ -17,7 +17,7 @@
     }
   },
   "misc": {
-    "alias": "dummy-cr",
+    "alias": "CR-2020-Descifrando-mensajes",
     "visibility": "private",
     "languages": "all",
     "email_clarifications": 0,
