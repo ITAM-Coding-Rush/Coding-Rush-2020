@@ -1,12 +1,12 @@
-semana = {'Lunes':, 'Martes': , 'Miercoles': , 'Jueves':, 'Viernes':. 'Sabado':, 'Domingo':}
+semana = {'Lunes':, 'Martes': , 'Miercoles': , 'Jueves':, 'Viernes':, 'Sabado':, 'Domingo':}
 n = int()
-totalH = 
+totalH =
 for:
-  dia = 
+  dia =
   escuela = int()
   divagar = int()
   semana[dia] =
-  totalH = 
+  totalH =
 semAnt = int()
 if():
   print('Sigue así, intenta mejorar tu marca de esta semana: ' + )
@@ -16,5 +16,5 @@ else:
   faltante =
   print('Te quedaste atras por: ' +)
   for :
-    dia = 
+    dia =
     print('El día ' + + ' invertiste un total de: ' +  + ' horas')
