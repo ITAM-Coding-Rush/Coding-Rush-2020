@@ -22,7 +22,7 @@ En caso de ser inferior a las horas de productividad de la semana pasada (sin co
 sample
 ||description
 La suma de horas invertidas en la escuela esta semana es de 15 y la suma de las horas en las que perdió el tiempo es de 8 por lo tanto sus horas de productividad son 15-8 = 7. Como la semana pasada sus horas de productividad son 10 Héctor no superó sus horas esta semana y por eso te dio tres días para que le mostraras sus horas de trabajo en la escuela dichos días.
-||input
+||examplefile
 sample2
 ||description
 Las horas de productividad esta semana son 20-7 = 13 por lo tanto es mayor a las 12 horas de productividad de la semana pasada
