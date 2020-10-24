@@ -1,4 +1,4 @@
-#leemos n 
+#leemos n
 #no nos importan realmente todos los campos
 #pero aun así hay que leerlos
 n = int(input())
@@ -22,7 +22,7 @@ for i in range(s):
 
   for j in range(camposLlenados):
     campo = input()
-    if( campo in importantes):
+    if(campo in importantes):
       importantesLlenados = importantesLlenados + 1
   #si llenó todos los importantes, sí es candidato
   if(importantesLlenados == m):
