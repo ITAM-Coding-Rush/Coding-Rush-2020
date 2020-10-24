@@ -1,0 +1,26 @@
+{
+  "title": "Gatica y sus Gatecos",
+  "source": "Coding Rush Otoño 2020 (Sebastián Valderrábano Cabrera)",
+
+  "limits": {
+    "TimeLimit": 1000,
+    "MemoryLimit": 33554432,
+    "InputLimit": 33554432,
+    "OutputLimit": 16384,
+    "ExtraWallTime": 0,
+    "OverallWallTimeLimit": 60000
+  },
+  "validator": {
+    "name": "custom",
+    "limits": {
+      "TimeLimit": 1000
+    }
+  },
+  "misc": {
+    "alias": "dummy-cr",
+    "visibility": "private",
+    "languages": "all",
+    "email_clarifications": 0,
+    "admin-groups": ["Coding-Rush-2020"]
+  }
+}
