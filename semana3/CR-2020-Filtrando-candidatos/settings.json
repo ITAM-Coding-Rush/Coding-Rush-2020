@@ -1,6 +1,6 @@
 {
-  "title": "La tarea de Redacción",
-  "source": "Coding Rush Otoño 2020 (Paulina Garza + Armando Limón)",
+  "title": "Filtrando candidatos",
+  "source": "Coding Rush Otoño 2020 (Carlos Delgado)",
 
   "limits": {
     "TimeLimit": 1000,
@@ -17,7 +17,7 @@
     }
   },
   "misc": {
-    "alias": "dummy-cr",
+    "alias": "CR-2020-Filtrando-candidatos",
     "visibility": "private",
     "languages": "all",
     "email_clarifications": 0,
