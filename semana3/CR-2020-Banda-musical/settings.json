@@ -18,7 +18,7 @@
   },
   "misc": {
     "alias": "CR-2020-Banda-musical",
-    "visibility": "private",
+    "visibility": "public",
     "languages": "all",
     "email_clarifications": 0,
     "admin-groups": ["Coding-Rush-2020"]
