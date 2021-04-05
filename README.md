@@ -132,4 +132,4 @@ pipenv run python3 runtests.py --all
 
 ## Problemas de ejemplo
 
-- https://github.com/ITAM-Coding-Rush/Coding-Rush-2020/tree/master/semana2/frijolitos
+- https://github.com/ITAM-Coding-Rush/Coding-Rush-2020/tree/master/semana2/CR-2020-Frijolitos
